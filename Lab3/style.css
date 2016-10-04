@@ -1,0 +1,79 @@
+body { 
+    background: #86d5d8;
+    background-image: url('./images/seigaiha.png');
+}
+h1 {
+    color: #5f2f44;
+}
+nav {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 5px 2px 5px 10px;
+}
+nav li {
+    display: inline;
+    padding: 10px 66px;
+    text-decoration: none;
+}
+/* Change the hover link color */
+li a:hover {
+    background-color: #673C4F;
+    color: white;
+}
+a {
+    color: #8ba9bf;
+    text-decoration: none;
+}
+#p1 {
+    margin-left: 15px;
+}
+#p2 {
+    background-color: #dceffd;
+    border:none;  
+    margin-left: 15px;
+    }
+#content {
+    background-color: #ffffff;
+    color: #585858;
+    border: none;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-top: 2%;
+}
+*.highlight{
+    background: #673C4F;
+    color: #ffffff;
+      }
+#ul {
+    color: #8ba9bf;
+}
+#ol {
+    color: #8ba9bf
+}
+table {
+    border-collapse: separate;
+    width: 100%;
+}
+table th {
+    background-color: #673C4F;
+    color: #c9d4e5;
+    padding: 5px 10px 5px 10px;
+}
+table td {
+    text-align: center;
+    background-color: #8ba9bf;
+    color: #673C4F;
+    border: 1px;
+    padding: 4px 8px;
+}
+table tr:nth-child(odd) td{
+    background-color: #b7e9f5;
+}
+.imgimg {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    color: #8ba9bf;
+}
