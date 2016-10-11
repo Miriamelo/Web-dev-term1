@@ -1,0 +1,53 @@
+.multicolumns {
+        text-align: justify;
+        column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 1em;
+        column-rule: 4px;
+        padding: 30px;
+        width: 70%;
+        float: left;
+      }
+
+.titletext {
+        text-align: left;
+        font-size: 168pt;
+        margin: 4pt;
+        column-span: all;
+        font-family: 'Fjalla One', sans-serif;
+      }
+
+.subtitle {
+        text-align: left;
+        font-size: 17pt;
+        margin: 4pt;
+        -webkit-column-span: all;
+        column-span: all;
+        width: 75%;
+      }
+
+.author {
+    font-size: 12pt;
+    margin: 4pt;
+    -webkit-column-span: all;
+}
+
+*.specialParagraph:first-letter { font-size: 350%; }
+
+*.highlight{
+    color: #000000;
+    
+      }
+.sidecontent {
+    width: 20%;
+    float: left;
+}
+
+
+@font-face {
+  font-family: 'FatCow';
+  src: url('font/FatCow.eot?#iefix') format('embedded-opentype'),  url('font/FatCow.woff') format('woff'), url('font/FatCow.ttf')  format('truetype'), url('font/FatCow.svg#FatCow') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
